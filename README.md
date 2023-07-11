@@ -2,7 +2,7 @@
 This project could be much more efficient, but this is a one off project, and I've gotten rusty with C<br>
 You'll need <a href="https://github.com/antiprism/libu8g2arm/">libu8g2arm</a> already compiled on your Raspberry Pi,<br>
 You'll also need the g++ package, which can be installed with $ `sudo apt install g++`<br>
-To compile the project, be in the same directory as the files, $ `cc main.c -o program -l:libu8g2arm.a`,
+To compile the project, be in the same directory as the bad apple files, $ `cc main.c -o program -l:libu8g2arm.a`,
 Then to run $ `./program`
 <hr>
 
