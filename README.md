@@ -1,4 +1,5 @@
 # Bad Apple on a 128x64 ST7920 LCD display, using Raspberry Pi.
+[![Watch the video](https://img.youtube.com/vi/v_NnFB3Wwd8/default.jpg)](https://youtu.be/v_NnFB3Wwd8)<br>
 This project could be much more efficient, but this is a one off project, and I've gotten rusty with C<br>
 You'll need <a href="https://github.com/antiprism/libu8g2arm/">libu8g2arm</a> already compiled on your Raspberry Pi,<br>
 You'll also need the g++ package, which can be installed with $ `sudo apt install g++`<br>
