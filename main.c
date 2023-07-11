@@ -6,7 +6,7 @@ int main(void) {
   u8x8_t *p_u8x8 = u8g2_GetU8x8(&u8g2);
   u8g2_Setup_st7920_s_128x64_f(&u8g2, U8G2_R0, u8x8_byte_arm_linux_hw_spi, u8x8_arm_linux_gpio_and_delay);
 
-  if (!u8g2arm_arm_init_hw_spi(p_u8x8, /* bus_number = */ 0, /* cs_number */ 0, /* bus speed */ 4.5)) {
+  if (!u8g2arm_arm_init_hw_spi(p_u8x8, /* bus_number = */ 0, /* cs_number */ 0, /* bus speed in MHz */ 4.5)) {
     fprintf(stderr, "could not initialise SPI device");
     exit(1);
   }
